@@ -23,7 +23,5 @@ public class FormApplication implements CommandLineRunner {
     @Override
     public void run(String...args) throws Exception {
         this.userRepository.save(new User("Priya", "Saroj", "priya@gmail.com"));
-        this.userRepository.save(new User("Tanaya", "Jadhav", "tanaya@gmail.com"));
-        this.userRepository.save(new User("Ajay", "Jha", "ajay@gmail.com"));
     }
 }
